@@ -19,9 +19,9 @@ var arr = [10,20,30,40,50,60]
 
 //Code Here
 
-let lastItemRemoved = arr.pop()
+// let lastItemRemoved = arr.pop()
 
-console.log(arr)
+// console.log(arr)
 
 ////////// PROBLEM 3 //////////
 
@@ -35,7 +35,9 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 
 //Code Here
 
-
+for (let i =0; i < family.length; i++){
+  console.log(family[i])
+}
 
 ////////// PROBLEM 4 //////////
 
