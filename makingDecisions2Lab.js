@@ -8,9 +8,9 @@ var arr = [10,20,30,40,50,60]
 
 //Code Here
 
-// let index = 0
+let index = 0
 
-// console.log(arr[index])
+console.log(arr[index])
 
 ////////// PROBLEM 2 //////////
 /*
@@ -19,9 +19,9 @@ var arr = [10,20,30,40,50,60]
 
 //Code Here
 
-// let lastItemRemoved = arr.pop()
+let lastItemRemoved = arr.pop()
 
-// console.log(arr)
+console.log(arr)
 
 ////////// PROBLEM 3 //////////
 
@@ -35,9 +35,9 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 
 //Code Here
 
-// for (let i =0; i < family.length; i++){
-//   console.log(family[i])
-// }
+for (let i =0; i < family.length; i++){
+  console.log(family[i])
+}
 
 ////////// PROBLEM 4 //////////
 
@@ -51,15 +51,15 @@ let evensArr = []
 */
 
 //Code Here
-// let even = 0
-// for( let i = 0; i < nums.length; i++){
-//   if ( nums[i] % 2 === 0 ){
-//     evensArr[even] = nums[i]
-//     even ++
-//   }
+let even = 0
+for( let i = 0; i < nums.length; i++){
+  if ( nums[i] % 2 === 0 ){
+    evensArr[even] = nums[i]
+    even ++
+  }
   
-// }
-// console.log(evensArr)
+}
+console.log(evensArr)
 ////////// PROBLEM 5 //////////
 
 // Do not edit the code below.
@@ -72,15 +72,15 @@ var score = 74
 
 //Code Here
 
-// if ( score >= 90){
-//   console.log('A')
-// }else if( score >= 80 && score <= 89){
-//   console.log('B')
-// }else if ( score >= 70 && score <= 79){
-//   console.log('C')
-// }else if ( score >= 60 && score <= 69){
-//   console.log('D')
-// }else console.log('F')
+if ( score >= 90){
+  console.log('A')
+}else if( score >= 80 && score <= 89){
+  console.log('B')
+}else if ( score >= 70 && score <= 79){
+  console.log('C')
+}else if ( score >= 60 && score <= 69){
+  console.log('D')
+}else console.log('F')
 
 ////////// Intermediate Problems //////////
 
@@ -213,3 +213,13 @@ switch(letterGrade){
 */
 
 //Code Here
+
+for( let i = 1; i <= 100; i++){
+  if(i % 3 === 0 && i % 5 === 0){
+    console.log("DevMountain")
+  }else if(i % 3 === 0){
+    console.log("Dev")
+  }else if(i % 5 === 0){
+    console.log("Mountain")
+  }else console.log(i)
+}
