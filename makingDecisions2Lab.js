@@ -8,8 +8,9 @@ var arr = [10,20,30,40,50,60]
 
 //Code Here
 
-let index = 0
-console.log(arr[index])
+// let index = 0
+
+// console.log(arr[index])
 
 ////////// PROBLEM 2 //////////
 /*
@@ -17,6 +18,10 @@ console.log(arr[index])
 */
 
 //Code Here
+
+let lastItemRemoved = arr.pop()
+
+console.log(arr)
 
 ////////// PROBLEM 3 //////////
 
